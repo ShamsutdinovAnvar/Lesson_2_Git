@@ -13,4 +13,8 @@ public class lesson_2_test {
     void exampleTest1() {
         Assertions.assertTrue(3 > 2);
     }
+    @Test
+    void exampleTest2() {
+        Assertions.assertTrue(4 > 3);
+    }
 }
